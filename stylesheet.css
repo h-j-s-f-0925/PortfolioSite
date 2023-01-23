@@ -1,0 +1,168 @@
+/* CSSリセット---------------- */
+body,p,ul,td,th,section{
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* 共通 -----------------------*/
+body {
+  text-align: center;
+}
+  /* li要素の点を消す */
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  /* widthを数値していしたらブロックの中央揃えできた */
+  width:90%;
+  margin:0 auto;
+}
+
+/* ヘッダー------------------- */
+header {
+  width: 100%;
+  height:65px;
+  background:rgba(34, 49, 52, 0.9) ;
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+.header-left p {
+  float:left;
+  line-height:65px;
+  color:white;
+}
+
+.header-right a{
+  line-height: 65px;
+  padding:0 25px;
+  display: inline-block;
+  color:white;
+  float: right;
+  transition:all 0.5s;
+}
+
+.header-right a:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* プロフィール部分 -----------*/
+
+.top-wrapper {
+  width:100%;
+  height:100%;
+  padding-top:100px;
+  padding-bottom:0px;
+  background: url("img/sky.jpg") center/cover;
+  /* background-size:cover; */
+  border-width: 1px;
+  border-color: gray;
+  border-style: solid;
+}
+
+.top-wrapper img {
+  border-radius: 20%;
+}
+
+/* SNS ボタン----------------- */
+.btn-wrapper a{ 
+  color:white;
+  margin:20px;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  opacity: 0.8;
+  border-radius: 4px;
+  display:inline-block
+}
+
+.btn:hover {
+  opacity:1;
+}
+
+/* .signup {
+  background-color: #239b76;
+  margin-top: 30px;
+} */
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 4px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.fa {
+  margin-right:8px;
+}
+/* 学習していること----------- */
+.learn-wrapper {
+  padding:50px;
+}
+
+
+
+
+
+
+
+
+
+/* MY Potofolio ---------------*/
+.my-portfolio-wrapper {
+  padding: 50px;
+  background-color: #f7f7f7;
+}
+
+/* 証明賞画像----------------- */
+.certificates-wrapper {
+  padding:50px;
+}
+
+.certificates-wrapper img{
+  width:50%;
+}
+
+/* 戻るボタン */
+.back .btn {
+  margin-bottom:30px;
+  padding: 15px 40px;
+  background-color: #5dca88;
+  box-shadow: 0 7px #1a7940;
+  display:inline-block;
+}
+
+.back :active {
+  box-shadow:none;
+  position:relative;
+  top:7px;
+}
+
+
+
+/* フッター */
+footer {
+  height:65px;
+  line-height:65px;
+  background-color:antiquewhite;
+}
+
+
+
+
