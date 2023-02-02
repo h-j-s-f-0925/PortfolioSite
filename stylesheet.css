@@ -24,7 +24,6 @@ a {
 }
 
 .container {
-  /* widthを数値していしたらブロックの中央揃えできた */
   width:90%;
   margin:0 auto;
 }
