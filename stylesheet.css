@@ -75,18 +75,18 @@ header {
   border-radius: 20%;
 }
 
-.top-wrapper table {
+table {
   border-collapse: collapse;
   width: 400px;
 }
 
-.top-wrapper th {
+th {
   border: 1px solid black;
   padding: 8px;
   background-color: gray;
 }
 
-.top-wrapper td {
+td {
   border: 1px solid black;
   padding: 8px;
 }
