@@ -75,6 +75,23 @@ header {
   border-radius: 20%;
 }
 
+.top-wrapper table {
+  border-collapse: collapse;
+  width: 400px;
+}
+
+.top-wrapper th {
+  border: 1px solid black;
+  padding: 8px;
+  background-color: gray;
+}
+
+.top-wrapper td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+
 /* SNS ボタン----------------- */
 .btn-wrapper a{ 
   color:white;
