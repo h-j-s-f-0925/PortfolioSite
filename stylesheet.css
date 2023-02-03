@@ -78,6 +78,7 @@ header {
 table {
   border-collapse: collapse;
   width: 400px;
+  margin: 32px auto 0;
 }
 
 th {
