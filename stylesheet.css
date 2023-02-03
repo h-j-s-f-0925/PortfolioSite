@@ -133,12 +133,17 @@ td {
   padding:50px;
 }
 
+.learn-wrapper li {
+  background: lightgray;
+  padding: 8px;
+  border-radius: 8px;
+  width: 400px;
+  margin:0 auto ; 
+}
 
-
-
-
-
-
+.learn-wrapper p {
+  padding: 8px;
+}
 
 
 /* MY Potofolio ---------------*/
@@ -146,6 +151,16 @@ td {
   padding: 50px;
   background-color: #f7f7f7;
 }
+.my-portfolio-wrapper li {
+  background: lightgray;
+  padding: 8px;
+  border-radius: 8px;
+  width: 400px;
+  margin:0 auto ; 
+  margin-bottom: 8px;
+}
+
+
 
 /* 証明賞画像----------------- */
 .certificates-wrapper {
