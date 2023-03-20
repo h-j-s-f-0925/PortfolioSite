@@ -160,6 +160,10 @@ td {
   margin-bottom: 8px;
 }
 
+.my-portfolio-wrapper .portfolio2 {
+  background: skyblue;
+}
+
 /* 証明賞画像----------------- */
 .certificates-wrapper {
   padding:50px;
